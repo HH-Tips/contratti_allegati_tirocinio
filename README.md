@@ -1,0 +1,1 @@
+Nota: ho caricato solo i contratti da allegare all'interno della relazione del tirocinio, in quanto il progetto originale contiene informazioni personali come dati dei wallets ecc., ho dunque preferito mantenere quel repository privato.
