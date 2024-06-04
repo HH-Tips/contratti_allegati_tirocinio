@@ -134,7 +134,7 @@ contract GameTrader {
         deleteTradeProposal(msg.sender, proposalIndex);
     }
 
-    //Valuta se una proposta è valida. (Ho fatto i controlli in questo modo schifoso per cercare di ridurre al minimo le operazioni per capire se la proposta è valida)
+    //Valuta se una proposta è valida. (Ho fatto i controlli in questo modo per cercare di ridurre al minimo le operazioni per capire se la proposta è valida)
     function isValidTradeProposal(Trade memory proposal) private view returns(bool valid) {
         IGameData gdContract = IGameData(gameDataContractAddr);
         IBloodPointsBank bpBankContract = IBloodPointsBank(bloodPointsBankContractAddr);
